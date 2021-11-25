@@ -1,0 +1,8 @@
+body{
+    background-color: #000000;
+    cursor: url(drawable/mouse/always.png),auto;
+}
+
+a{
+    cursor: url(drawable/mouse/click.png),auto;
+}

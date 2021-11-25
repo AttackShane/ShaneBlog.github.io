@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <meta name="keywords" content="Shane,Leo,Bella,Piggy,Fredrick" />
+    <meta name="description" content="个人 Web & 诗歌 作品">
+    <meta name="author" content="Shane">
+    <meta http-equiv="refresh" content="600" />
+
+    <link rel="shortcut icon" href="drawable/logo.png" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script type="text/javascript" src="rollingpic.js"></script>
+    <bgsound src="bgmusic/MySoul.mp3" loop="-1" />
+
+    <title>詩の島</title>
+
+</head>
+
+
+<body>
+    <h1 id="titlekd" align="center">I have only one day of tenderness. If you want to hear the story of a wandering poet, please listen for a while.</h1>
+
+    <hr />
+
+    <div class="topthing">
+        <div class="logobox">
+            <a href="index.html" style="text-decoration: none;"><img src="drawable/newisland.png" /></a>
+            <a href="index.html" style="text-decoration: none;"><div class="arttxt">诗の岛</div></a>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="mybottom">
+        <a class="arttxt" href="index.html">诗の首页</a>
+        <a class="arttxt" href="across.html">诗の偶遇</a>
+        <a class="arttxt" href="masterpieces.html">诗の名作</a>
+        <a class="arttxt" href="celebrities.html">诗の名流</a>
+        <a class="arttxt" href="recommend.html">诗の推荐</a>
+        <a class="arttxt" href="material.html">诗の素材</a>
+        <a class="arttxt" href="private.html">诗の空间</a>
+        <a class="arttxt" href="contribution.html">诗の投稿</a>
+    </div>
+
+    <hr />
+    <script>
+        function myFunction() {
+            alert("到底啦！");
+        }
+    </script>
+    <div class="user">
+        <div class="massage">
+            <img src="drawable\people.png" width="250" height="250" style="margin:48px;" />
+
+            <div class="txtmassage" width="200px">
+                <div class="dicmassage">等级： Lv.0</div>
+                <hr />
+                <br />
+                <div class="dicmassage">昵称：待补充</div>
+                <hr />
+                <br />
+                <div class="dicmassage">姓别：待补充</div>
+                <hr />
+                <br />
+                <div class="dicmassage">兴趣：待补充</div>
+                <hr />
+                <br />
+                <div class="dicmassage">身份：待补充</div>
+                <hr />
+                <br />
+                <div class="dicmassage">作品：待补充待补充待补充待补充待补充待补充待补充</div>
+                <hr />
+                <br />
+                <div class="dicmassage">留言：待补充待补充待补充待补充待补充待补充待补充</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mywork">
+        <div class="rollingpic" id="focusPic1">
+            <div class="goba">
+                <br />
+                <div class="artical"><a href="https://user.qzone.qq.com/914695987/blog/1548894767">梦·不愿醒——小绿本题记</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>悲大调——意象构造</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>Faker——随想</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>Tyrant（暴君）——封建随想</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>命运——贝多芬乐曲随想</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>模拟校园——随想</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>昙花现——随想</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>多伤——仿写陶潜</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>观天</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>听竹煮雨</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>朋友？！</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>刺客三部曲——刺客归来</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>三生痛</a></div>
+                <hr />
+                <br />
+            </div>
+            <div id="page">
+                <strong><span class="fk_cur">1</span></strong>
+                <a onClick="javascript:setFocus(2);"><span class="fk">2</span></a>
+                <a onClick="javascript:setFocus(3);"><span class="fk">3</span></a>
+                <a onClick="javascript:setFocus(4);"><span class="fk">4</span></a>
+                <a onClick="javascript:setFocus(5);"><span class="fk">5</span></a>
+                <a onClick="javascript:setFocus(6);"><span class="fk">6</span></a>
+                <a onClick="javascript:setFocus(7);"><span class="fk">7</span></a>
+                <a onClick="javascript:setFocus(8);"><span class="fk">8</span></a>
+                <a onClick="javascript:setFocus(9);"><span class="fk">9</span></a>
+                <a class="n" style="text-decoration:none" onClick="javascript:setFocus(2);">下一页 &gt;</a>
+            </div>
+        </div>
+        <div class="rollingpic" id="focusPic2" style="display:none;">
+            <div class="goba">
+                <br />
+                <div class="artical"><a>魔术先生——《惊天魔盗团》随想</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>麻雀——随想 </a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>相反论——相对论随想（缥缈天客串）</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>万有引力——掀牛顿棺材板</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>伪装——《变色龙》随想</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>玩笑——愚人节随想</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>吴越歌——小战场再续</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>我们都还太小——随想</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>月影之幻(歌曲)——中秋随想</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>暗处的眼睛(歌曲)</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>心田——随想</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>失忆——《你的名字》随想</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>异次元通讯——同名随想</a></div>
+                <hr />
+                <br />
+            </div>
+            <div id="page">
+                <a onClick="javascript:setFocus(1);"><span class="fk">1</span></a>
+                <strong><span class="fk_cur">2</span></strong>
+                <a onClick="javascript:setFocus(3);"><span class="fk">3</span></a>
+                <a onClick="javascript:setFocus(4);"><span class="fk">4</span></a>
+                <a onClick="javascript:setFocus(5);"><span class="fk">5</span></a>
+                <a onClick="javascript:setFocus(6);"><span class="fk">6</span></a>
+                <a onClick="javascript:setFocus(7);"><span class="fk">7</span></a>
+                <a onClick="javascript:setFocus(8);"><span class="fk">8</span></a>
+                <a onClick="javascript:setFocus(9);"><span class="fk">9</span></a>
+                <a class="n" style="text-decoration:none" onClick="javascript:setFocus(3);">下一页 &gt;</a>
+            </div>
+        </div>
+
+        <div class="rollingpic" id="focusPic3" style="display:none;">
+            <div class="goba">
+                <br />
+                <div class="artical"><a>断笔</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>无言之言</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>刺客三部曲——改变</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>刺客三部曲——重操旧业</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>雨霖铃——仿写</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>流浪诗人</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>问候</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>热场</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>睡觉</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>梦创世</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+            </div>
+            <div id="page">
+                <a onClick="javascript:setFocus(1);"><span class="fk">1</span></a>
+                <a onClick="javascript:setFocus(2);"><span class="fk">2</span></a>
+                <strong><span class="fk_cur">3</span></strong>
+                <a onClick="javascript:setFocus(4);"><span class="fk">4</span></a>
+                <a onClick="javascript:setFocus(5);"><span class="fk">5</span></a>
+                <a onClick="javascript:setFocus(6);"><span class="fk">6</span></a>
+                <a onClick="javascript:setFocus(7);"><span class="fk">7</span></a>
+                <a onClick="javascript:setFocus(8);"><span class="fk">8</span></a>
+                <a onClick="javascript:setFocus(9);"><span class="fk">9</span></a>
+                <a class="n" style="text-decoration:none" onClick="javascript:setFocus(4);">下一页 &gt;</a>
+            </div>
+        </div>
+        <div class="rollingpic" id="focusPic4" style="display:none;">
+            <div class="goba">
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+            </div>
+            <div id="page">
+                <a onClick="javascript:setFocus(1);"><span class="fk">1</span></a>
+                <a onClick="javascript:setFocus(2);"><span class="fk">2</span></a>
+                <a onClick="javascript:setFocus(3);"><span class="fk">3</span></a>
+                <strong><span class="fk_cur">4</span></strong>
+                <a onClick="javascript:setFocus(5);"><span class="fk">5</span></a>
+                <a onClick="javascript:setFocus(6);"><span class="fk">6</span></a>
+                <a onClick="javascript:setFocus(7);"><span class="fk">7</span></a>
+                <a onClick="javascript:setFocus(8);"><span class="fk">8</span></a>
+                <a onClick="javascript:setFocus(9);"><span class="fk">9</span></a>
+                <a class="n" style="text-decoration:none" onClick="javascript:setFocus(5);">下一页 &gt;</a>
+            </div>
+        </div>
+        <div class="rollingpic" id="focusPic5" style="display:none;">
+            <div class="goba">
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+            </div>
+            <div id="page">
+                <a onClick="javascript:setFocus(1);"><span class="fk">1</span></a>
+                <a onClick="javascript:setFocus(2);"><span class="fk">2</span></a>
+                <a onClick="javascript:setFocus(3);"><span class="fk">3</span></a>
+                <a onClick="javascript:setFocus(4);"><span class="fk">4</span></a>
+                <strong><span class="fk_cur">5</span></strong>
+                <a onClick="javascript:setFocus(6);"><span class="fk">6</span></a>
+                <a onClick="javascript:setFocus(7);"><span class="fk">7</span></a>
+                <a onClick="javascript:setFocus(8);"><span class="fk">8</span></a>
+                <a onClick="javascript:setFocus(9);"><span class="fk">9</span></a>
+                <a class="n" style="text-decoration:none" onClick="javascript:setFocus(6);">下一页 &gt;</a>
+            </div>
+        </div>
+        <div class="rollingpic" id="focusPic6" style="display:none;">
+            <div class="goba">
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+            </div>
+            <div id="page">
+                <a onClick="javascript:setFocus(1);"><span class="fk">1</span></a>
+                <a onClick="javascript:setFocus(2);"><span class="fk">2</span></a>
+                <a onClick="javascript:setFocus(3);"><span class="fk">3</span></a>
+                <a onClick="javascript:setFocus(4);"><span class="fk">4</span></a>
+                <a onClick="javascript:setFocus(5);"><span class="fk">5</span></a>
+                <strong><span class="fk_cur">6</span></strong>
+                <a onClick="javascript:setFocus(7);"><span class="fk">7</span></a>
+                <a onClick="javascript:setFocus(8);"><span class="fk">8</span></a>
+                <a onClick="javascript:setFocus(9);"><span class="fk">9</span></a>
+                <a class="n" style="text-decoration:none" onClick="javascript:setFocus(7);">下一页 &gt;</a>
+            </div>
+        </div>
+        <div class="rollingpic" id="focusPic7" style="display:none;">
+            <div class="goba">
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+            </div>
+            <div id="page">
+                <a onClick="javascript:setFocus(1);"><span class="fk">1</span></a>
+                <a onClick="javascript:setFocus(2);"><span class="fk">2</span></a>
+                <a onClick="javascript:setFocus(3);"><span class="fk">3</span></a>
+                <a onClick="javascript:setFocus(4);"><span class="fk">4</span></a>
+                <a onClick="javascript:setFocus(5);"><span class="fk">5</span></a>
+                <a onClick="javascript:setFocus(6);"><span class="fk">6</span></a>
+                <strong><span class="fk_cur">7</span></strong>
+                <a onClick="javascript:setFocus(8);"><span class="fk">8</span></a>
+                <a onClick="javascript:setFocus(9);"><span class="fk">9</span></a>
+                <a class="n" style="text-decoration:none" onClick="javascript:setFocus(8);">下一页 &gt;</a>
+            </div>
+        </div>
+        <div class="rollingpic" id="focusPic8" style="display:none;">
+            <div class="goba">
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+            </div>
+            <div id="page">
+                <a onClick="javascript:setFocus(1);"><span class="fk">1</span></a>
+                <a onClick="javascript:setFocus(2);"><span class="fk">2</span></a>
+                <a onClick="javascript:setFocus(3);"><span class="fk">3</span></a>
+                <a onClick="javascript:setFocus(4);"><span class="fk">4</span></a>
+                <a onClick="javascript:setFocus(5);"><span class="fk">5</span></a>
+                <a onClick="javascript:setFocus(6);"><span class="fk">6</span></a>
+                <a onClick="javascript:setFocus(7);"><span class="fk">7</span></a>
+                <strong><span class="fk_cur">8</span></strong>
+                <a onClick="javascript:setFocus(9);"><span class="fk">9</span></a>
+                <a class="n" style="text-decoration:none" onClick="javascript:setFocus(9);">下一页 &gt;</a>
+            </div>
+        </div>
+        <div class="rollingpic" id="focusPic9" style="display:none;">
+            <div class="goba">
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+                <div class="artical"><a>内容待定</a></div>
+                <hr />
+                <br />
+            </div>
+            <div id="page">
+                <a onClick="javascript:setFocus(1);"><span class="fk">1</span></a>
+                <a onClick="javascript:setFocus(2);"><span class="fk">2</span></a>
+                <a onClick="javascript:setFocus(3);"><span class="fk">3</span></a>
+                <a onClick="javascript:setFocus(4);"><span class="fk">4</span></a>
+                <a onClick="javascript:setFocus(5);"><span class="fk">5</span></a>
+                <a onClick="javascript:setFocus(6);"><span class="fk">6</span></a>
+                <a onClick="javascript:setFocus(7);"><span class="fk">7</span></a>
+                <a onClick="javascript:setFocus(8);"><span class="fk">8</span></a>
+                <strong><span class="fk_cur">9</span></strong>
+                <a class="n" style="text-decoration:none" onClick="javascript: myFunction()">下一页 &gt;</a>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+    <h1 id="titlekd" align="center">Our destiny offers not the cup of despair, but the chalice of opportunity. So let us seize it, not in fear, but in gladness.</h1>
+</body>
+</html>

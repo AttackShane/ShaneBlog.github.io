@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+
+    <meta charset="utf-8" />
+
+    <meta name="keywords" content="Shane,Leo,Bella,Piggy,Fredrick" />
+    <meta name="description" content="个人 Web & 诗歌 作品">
+    <meta name="author" content="Shane">
+    <meta http-equiv="refresh" content="600" />
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=2.0)" />
+
+    <link rel="shortcut icon" href="drawable/logo.png" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script type="text/javascript" src="rollingpic.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <bgsound src="bgmusic/MySoul.mp3" loop="-1" />
+
+    <title>詩の島</title>
+
+</head>
+
+
+<body>
+    <h1 id="titlekd" align="center">I have only one day of tenderness. If you want to hear the story of a wandering poet, please listen for a while.</h1>
+
+    <hr />
+
+    <div class="topthing">
+        <div class="logobox">
+            <a href="index.html" style="text-decoration: none;"><img src="drawable/newisland.png" /></a>
+            <a href="index.html" style="text-decoration: none;"><div class="arttxt">诗の岛</div></a>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="mybottom">
+        <a class="arttxt" href="index.html">诗の首页</a>
+        <a class="arttxt" href="across.html">诗の偶遇</a>
+        <a class="arttxt" href="masterpieces.html">诗の名作</a>
+        <a class="arttxt" href="celebrities.html">诗の名流</a>
+        <a class="arttxt" href="recommend.html">诗の推荐</a>
+        <a class="arttxt" href="material.html">诗の素材</a>
+        <a class="arttxt" href="private.html">诗の空间</a>
+        <a class="arttxt" href="contribution.html">诗の投稿</a>
+    </div>
+
+    <hr />
+
+    <div class="user">
+        <div class="htxt">生花妙笔</div>
+        <div class="rank" width="200px">
+            <div class="rtxt">champion</div>
+            <img src="drawable\logo.png" width="250" height="250" style="margin:24px;" />
+            <div class="rtxt">runner-up</div>
+            <img src="drawable\people.png" width="250" height="250" style="margin:24px;" />
+            <div class="rtxt">Second runner up</div>
+            <img src="drawable\people.png" width="250" height="250" style="margin:24px;" />
+        </div>
+    </div>
+
+    <div class="mywork">
+        <div class="page-inner">
+            <input class="subtittle" type="text" name="Titlle" placeholder="Tittle:例如<詩の島>">
+            <br />
+            <br />
+            <textarea class="subcontain" placeholder="Contain:例如<文起雅音韵飘摇，诗词歌赋凭风笑>"></textarea>
+            <br />
+            <input class="submitb" id="outch" type="button" value="Cancel">
+            <input class="submitb" id="yeah" type="button" value="Submit" onclick="window.open('submitok.html');" />
+        </div>
+        <br />
+        <br />
+        <div>※注意：点击Cancel按钮清空文本框；点击Submit按钮将跳转到成功提交页面。</div>
+        <div>都会导致当前网页内容将会丢失，请及时备份备份，避免发生不必要的麻烦哦。</div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function (e) {
+            $('.submitb').click(function () {
+                $('.subtittle').val('');
+                $('.subcontain').val('');
+            });
+        });
+    </script>
+
+    <hr />
+
+    <h1 id="titlekd" align="center">Our destiny offers not the cup of despair, but the chalice of opportunity. So let us seize it, not in fear, but in gladness.</h1>
+</body>
+</html>
